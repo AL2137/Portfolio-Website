@@ -279,3 +279,90 @@ ul{
     font-family: "Atkinson Hyperlegible", serif;
     font-weight: 50;
 }
+#exp{
+    text-align: center;
+    margin-right: 10px;
+}
+@media (max-width: 700px){
+    .container3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .conatiner2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container5{
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+        width: 480px;
+        gap: 20px;
+        align-content: space-around;  
+    
+    }
+    .grid-item{
+        font-size: 1.5em;
+    }
+    .grid-item1{
+        font-size: 1.5em;
+    }
+    .grid-item2{
+        font-size: 1.5em;
+    }
+    .grid-container img{
+        height: 20px;
+        width: 20px;
+    }
+    .photo{
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .photo img{
+        width: 480px;
+        margin-top: 50px;
+    }
+    #email, #linkedin{
+        
+        margin: 5px;
+        font-size: 0.7rem;
+}
+#email img, #linkedin img{
+    height: 25px;
+    width: 25px;
+    
+}
+
+}
+@media (max-width: 800px){
+    #name{
+        font-size: 3.8em;
+        margin-right: 0px;
+    }
+    .title h2{
+        margin: 5px;
+        font-size: 1.5em;
+        margin-right:0px;
+    }
+
+}
+@media (max-width: 520px){
+    #name{
+        font-size: 2em;
+        margin-right: 0px;
+    }
+    .title h2{
+        margin: 5px;
+        font-size: 1em;
+        margin-right:0px;
+    }
+
+}

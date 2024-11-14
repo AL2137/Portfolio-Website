@@ -203,7 +203,7 @@ ul{
     padding: 40px;
     border-radius: 17%;
     text-align: center;
-
+    box-shadow: 3px 3px #0F1035, -1em 0 .4em #365486;
 }
 .card img{
     border-radius: 20%;
@@ -294,6 +294,9 @@ ul{
     }
     .container5{
         flex-direction: column;
+        align-items: center;
+    }
+    .container4{
         align-items: center;
     }
     .grid-container{
